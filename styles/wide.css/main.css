@@ -1,0 +1,95 @@
+@media (min-width: 1601px) {
+    html {
+        font-size: clamp(16px, calc(1rem + (100vw - 1601px) / 160), 100px);
+    }
+
+    .main-content {
+        max-width: 73.81rem;
+        margin: 2.25rem auto;
+        margin-bottom: 7.13rem;
+    }
+
+    .features-content-up {
+        max-width: 66.25rem;
+        margin: 0 auto;
+        margin-bottom: 5.06rem;
+        text-align: center;
+        font-size: 1.13rem;
+        line-height: 150%;
+    }
+
+    .main-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 1.88rem;
+    }   
+
+    .features-content-down {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.25rem; 
+    }
+
+    .feature {
+        max-width: 23.75rem;
+        flex: 1 1 calc(33.33% - 1.25rem);
+        margin: 0 auto;
+        margin-bottom: 8.13rem;
+    }
+
+    .feature-image {
+        height: 3.75rem;
+        margin-bottom: 1.63rem;
+    }
+
+    .feature-name {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 0.94rem;
+        color: black;
+    }
+
+    .about-feature {
+        font-size: 1rem;
+        line-height: 140%;
+    }
+
+    .main-graphics {
+        display: flex;
+        flex-direction: column;
+        gap: 7.5rem;
+    }
+
+    .main-graphic-right,
+    .main-graphic-left {
+        display: flex;
+    }
+
+    .main-graph {
+        height: 25.63rem;
+        box-shadow: 0 1.13rem 3.13rem -0.94rem rgba(25, 42, 89, 0.2);
+    }
+
+    .graphic-right-text {
+        padding: 5.56rem 6.56rem 5.56rem 0;
+    }
+
+    .graphic-left-text {
+        padding: 5.56rem 0 5.56rem 6.56rem;
+    }
+
+    .graphic-text-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1.88rem;
+        color: black;
+    }
+
+    .graphic-text-info {
+        font-size: 1.13rem;
+        line-height: 150%;
+    }
+}

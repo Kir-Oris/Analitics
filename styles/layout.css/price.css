@@ -1,0 +1,159 @@
+@media (max-width: 1600px) and (min-width: 651px){
+    .background-down::before {
+        height: 1105px;
+        clip-path: polygon(0 100%, 0 18.61%, 100% 2%, 100% 100%);
+    }
+    
+    .background-down::after {
+        height: 1105px;
+        clip-path: polygon(0 100%, 0 calc(18.61% - 17px), 100% 0, 100% 100%);
+    }
+
+    .price-plan {
+        max-width: 1181px;
+        margin: 0 auto;
+        margin-top: 272px;
+    }
+
+    .price-plan-text-container {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .price-plan-title {
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    .price-plan-text {
+        font-family: 18px;
+        line-height: 150%;
+    }
+
+    .price-cards {
+        display: flex;
+        width: 100%;
+        gap: 80px;
+        margin-bottom: 100px;
+    }
+
+    .price-card {
+        padding: 50px 61px 70px 61px;
+        flex: 1 1 calc(33.33% - 80px);
+        border-radius: 30px;
+        background-color: #0F1F4B;
+        transition: transform 0.3s ease;
+    }
+
+    .price-card:hover {
+        transform: scale(1.1);
+        background-color: #D3D9E9;
+    }
+
+    .card-part-up {
+        text-align: center;
+        margin-bottom: 37px;
+    }
+
+    .price-name {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .price-card:hover .price-name {
+        color: #172755; /* Новый цвет для названия карточки */
+    }
+
+    .price-text {
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    .card-part-down {
+        padding-top: 28px;
+        text-align: center;
+        border-top: 1px solid #2A407C;
+        margin-bottom: 40px;
+    }
+
+    .price-cost {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .price-card:hover .price-cost {
+        color: #172755; /* Новый цвет для цены */
+    }
+
+    .price-cost span {
+        font-size: 30px;
+    }
+
+    .card-btn-container {
+        padding: 0 8px 0 12px;
+    }
+
+    .card-button {
+        padding: 15px 80px;
+        border: 1px solid #2A407C;
+        border-radius: 68px;
+        color: #ffffff;
+        margin-bottom: 15px;
+    }
+
+    .price-card:hover .card-button {
+        background-color: #EF2A82; /* Цвет фона кнопки */
+        border: 1px solid #EF2A82;
+    }
+    
+    .price-card .card-button.clicked {
+        background-color: #0F1F4B !important; /* Новый цвет кнопки после клика */
+        border-color: #2A407C !important; /* Новый цвет обводки кнопки */
+    }
+
+    footer {
+        padding-top: 63px;
+        border-top: 1px solid #2A407C;
+        display: flex;
+        align-items: center;
+        margin: 0 auto 103px auto;
+        max-width: 1181px;
+    }
+
+    .logo-footer img {
+        height: 30px;
+        margin-right: 309px;
+    }
+
+    .footer-menu {
+        align-items: center;
+        display: flex;
+    }
+    .footer-links {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer-list {
+        display: flex;
+        gap: 36px;
+    }
+
+    .footer-link {
+        font-size: 14px;
+    }
+
+    .social-btns {
+        display: flex;
+        gap: 40px;
+    }
+
+    .social-btn:hover svg {
+        fill: white;
+    }
+}

@@ -1,0 +1,102 @@
+@import url(mobile.css/intro.css);
+@import url(mobile.css/main.css);
+@import url(mobile.css/price.css);
+
+@import url(layout.css/intro.css);
+@import url(wide.css/intro.css);
+@import url(layout.css/main.css);
+@import url(wide.css/main.css);
+@import url(layout.css/price.css);
+@import url(wide.css/price.css);
+
+
+body {
+    background-color: #EEEEF6;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    color: #8794BA;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #8794BA;
+}
+
+.background-up {
+    position: absolute;
+    width: 100%;
+}
+
+.background-up::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #172755;
+    z-index: -2;
+}
+
+.background-up::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #EF2A82;
+    z-index: -3;
+}
+
+.intro-graphic {
+    position: relative;
+}
+
+.intro-graphic::before {
+    content: "";
+    position: absolute;
+    background-image: url(./../../../images/main-screen.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.background-down {
+    position: absolute;
+    width: 100%;
+}
+
+.background-down::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #172755;
+    z-index: -1;
+}
+
+.background-down::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #EF2A82;
+    z-index: -2;
+}
+
+/* Стили полосы прокрутки */
+::-webkit-scrollbar {
+    width: 10px; /* Ширина полосы */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3498db; /* Цвет бегунка */
+    border-radius: 10px; /* Закругление */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Цвет трека */
+  }

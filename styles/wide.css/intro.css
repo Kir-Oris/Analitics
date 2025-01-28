@@ -1,0 +1,144 @@
+@media (min-width: 1601px) {
+    html {
+        font-size: clamp(16px, calc(1rem + (100vw - 1601px) / 160), 100px);
+    }
+
+    .intro {
+        margin: 0 auto;
+        padding-top: 3.13rem;
+        max-width: 73.81rem;
+    }
+
+    .background-up::before {
+        height: 49.88rem;
+        clip-path: polygon(0 99%, 0 0, 100% 0, 100% 73%);
+    }
+
+    .background-up::after {
+        height: 50.94rem;
+        clip-path: polygon(0 calc(97% + 17px), 0 0, 100% 0, 100% calc(72% + 17px));
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        max-width: 73.81rem;
+        margin: 0 auto;
+        padding-top: 3.13rem;
+    }
+
+    .header-menu-button {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 5.13rem;
+    }
+
+    .logo-img {
+        height: 2.5rem;
+    }
+
+    .header-menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header-menu-list {
+        display: flex;
+        gap: 2.25rem;
+    }
+
+    .header-menu-link {
+        font-size: 1rem;
+    }
+
+    .header-menu-link:hover {
+        color: white;
+    }
+
+    .sign-btns {
+        display: flex;
+        gap: 2.5rem;
+        align-items: center;
+    }
+
+    .signin-btn {
+        font-size: 1rem;
+    }
+
+    .signin-btn:hover {
+        color: white;
+    }
+
+    .signup-btn {
+        font-size: 1rem;
+        padding: 0.63rem 3.31rem;
+        border-radius: 4.25rem;
+        border: 0.06rem solid #465b95;
+    }
+
+    .signup-btn:focus {
+        color: white;
+    }
+
+    .intro-preview {
+        display: flex;
+        margin-top: 9.5rem;
+        width: 100%;
+        margin-bottom: 16.69rem;
+
+    }
+
+    .intro-text {
+        max-width: 34.69rem;
+        margin-right: 5.06rem; 
+    }
+
+    .intro-title {
+        font-size: 3.13rem;
+        line-height: 120%;
+        color: #ffffff;
+        font-weight: bold;
+        margin-bottom: 0.94rem;
+    }
+
+    .intro-text p {
+        font-size: 1.13rem;
+        line-height: 150%;
+        margin-bottom: 4rem;
+    }
+
+    .try-btn {
+        border-radius: 4.25rem;
+        padding: 0.94rem 5rem;
+        background: #ef2a82;
+        color: #ffffff;
+        font-size: 1rem;
+    }
+
+    .try-btn:focus {
+        background-color: #0F1F4B;
+        border-color: #2A407C;
+    }
+
+    .intro-graphic img {
+        margin-top: 2.88rem;
+        height: 15.44rem;
+        box-shadow: 0 1.19rem 3.31rem -1rem rgba(25, 42, 89, 0.2);
+    }
+
+    .intro-graphic::before {
+        top: -4.88rem;
+        left: 4.31rem;
+        width: 50.25rem;
+        height: 34.69rem;
+        box-shadow: 0 1.13rem 3.13rem -0.94rem rgba(25, 42, 89, 0.2);
+    }
+
+    .intro-big-graphic {
+        display: none;
+    }
+}

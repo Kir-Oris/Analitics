@@ -1,0 +1,169 @@
+@media (min-width: 1601px) {
+    html {
+        font-size: clamp(16px, calc(1rem + (100vw - 1601px) / 160), 100px);
+    }
+
+    .background-down::before {
+        height: 69.06rem;
+        clip-path: polygon(0 100%, 0 18.61%, 100% 2%, 100% 100%);
+    }
+    
+    .background-down::after {
+        height: 69.06rem;
+        clip-path: polygon(0 100%, 0 calc(18.61% - 17px), 100% 0, 100% 100%);
+    }
+
+    .price-plan {
+        max-width: 73.81rem;
+        margin: 0 auto;
+        margin-top: 17rem;
+    }
+
+    .price-plan-text-container {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .price-plan-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 1.88rem;
+    }
+
+    .price-plan-text {
+        font-family: 1.13rem;
+        line-height: 150%;
+    }
+
+    .price-cards {
+        display: flex;
+        width: 100%;
+        gap: 5rem;
+        margin-bottom: 6.25rem;
+    }
+
+    .price-card {
+        padding: 3.13rem 3.81rem 4.38rem 3.81rem;
+        flex: 1 1 calc(33.33% - 5rem);
+        border-radius: 1.88rem;
+        background-color: #0F1F4B;
+        transition: transform 0.3s ease;
+    }
+
+    .price-card:hover {
+        transform: scale(1.1);
+        background-color: #D3D9E9;
+    }
+
+    .card-part-up {
+        text-align: center;
+        margin-bottom: 2.31rem;
+    }
+
+    .price-name {
+        color: white;
+        font-size: 1.88rem;
+        font-weight: bold;
+        margin-bottom: 0.63rem;
+    }
+
+    .price-card:hover .price-name {
+        color: #172755; /* Новый цвет для названия карточки */
+    }
+
+    .price-text {
+        font-size: 1.13rem;
+        line-height: 150%;
+    }
+
+    .card-part-down {
+        padding-top: 1.75rem;
+        text-align: center;
+        border-top: 0.06rem solid #2A407C;
+        margin-bottom: 2.5rem;
+    }
+
+    .price-cost {
+        font-size: 3.75rem;
+        font-weight: bold;
+    }
+
+    .price-card:hover .price-cost {
+        color: #172755; /* Новый цвет для цены */
+    }
+
+    .price-cost span {
+        font-size: 1.88rem;
+    }
+
+    .card-btn-container {
+        padding: 0 0.5rem 0 0.75rem;
+    }
+
+    .card-button {
+        padding: 0.94rem 5rem;
+        border: 0.06rem solid #2A407C;
+        border-radius: 4.25rem;
+        color: #ffffff;
+        margin-bottom: 0.94rem;
+    }
+
+    .price-card:hover .card-button {
+        background-color: #EF2A82; /* Цвет фона кнопки */
+        border: 0.06rem solid #EF2A82;
+    
+    }
+    
+    .price-card .card-button.clicked {
+        background-color: #0F1F4B !important; /* Новый цвет кнопки после клика */
+        border-color: #2A407C !important; /* Новый цвет обводки кнопки */
+    }
+
+    footer {
+        padding-top: 3.94rem;
+        border-top: 0.06rem solid #2A407C;
+        display: flex;
+        align-items: center;
+        margin: 0 auto 6.44rem auto;
+        max-width: 73.81rem;
+    }
+
+    .logo-footer img {
+        height: 1.88rem;
+        margin-right: 19.31rem;
+    }
+
+    .footer-menu {
+        align-items: center;
+        display: flex;
+    }
+    .footer-links {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer-list {
+        display: flex;
+        gap: 2.25rem;
+    }
+
+    .footer-link {
+        font-size: 0.88rem;
+    }
+
+    .social-btns {
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    .social-link-btn svg {
+        height: 1.25rem;
+        width: auto;
+    }
+
+    .social-link-btn:hover path {
+        fill: white;
+    }
+}
