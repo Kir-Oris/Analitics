@@ -1,4 +1,4 @@
-@media (max-width: 650px) {
+@media (max-width: 768px) {
     .background-up::before {
         height: clamp(703px, calc(703px + ((650 - 375) / (650 - 375)) * (100vw - 375px)), calc(703px + (650px - 375px)));
         clip-path: polygon(0 97%, 0 0, 100% 0, 100% 86%);

@@ -1,0 +1,196 @@
+@media (max-width: 1270px) and (min-width: 1019px){
+    .main-content {
+        max-width: 92%;
+        margin: 36px auto;
+        margin-bottom: 114px;
+    }
+
+    .features-content-up {
+        max-width: 1060px;
+        margin: 0 auto;
+        margin-bottom: 81px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    .main-title {
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 30px;
+    }   
+
+    .features-content-down {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px; 
+    }
+
+    .feature {
+        max-width: 380px;
+        flex: 1 1 calc(33.33% - 20px);
+        margin: 0 auto;
+        margin-bottom: 130px;
+    }
+
+    .feature-image {
+        height: 60px;
+        margin-bottom: 26px;
+    }
+
+    .feature-name {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: black;
+    }
+
+    .about-feature {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .main-graphics {
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+    }
+
+    .main-graphic-right,
+    .main-graphic-left {
+        display: flex;
+    }
+
+    .main-graph {
+        height: 25.63vw;
+        box-shadow: 0 18px 50px -15px rgba(25, 42, 89, 0.2);
+    }
+
+    .graphic-right-text {
+        padding: 4vw 105px 89px 0;
+    }
+
+    .graphic-left-text {
+        padding: 4vw 0 89px 105px;
+    }
+
+    .graphic-text-title {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: black;
+    }
+
+    .graphic-text-info {
+        font-size: 15px;
+        line-height: 150%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1018px) {
+    .main-content {
+        width: 92%;
+        margin: 0 auto;
+        margin-top: 127px;
+        margin-bottom: 205px;
+    }
+
+    .features-content-up {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 71px;
+        text-align: start;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+    }
+
+    .main-title {
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 20px;
+    }   
+
+    .features-content-down {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px; 
+    }
+
+    .feature {
+        max-width: 380px;
+        text-align: center;
+        min-width: 334px;
+        flex: 1 1 calc(33.33% - 20px);
+        margin: 0 auto;
+    }
+
+    .feature-image {
+        height: 60px;
+        margin-right: 27px;
+        
+    }
+
+    .feature-name {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 9px;
+        color: black;
+    }
+
+    .about-feature {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .main-graphics {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        gap: 60px;
+        margin-top: 71px;
+    }
+
+    .main-graphic-right,
+    .main-graphic-left {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .main-graphic-left {
+        flex-wrap: wrap-reverse;
+    }
+
+    .main-graph {
+        min-width: 300px;
+        box-shadow: 0 18px 50px -15px rgba(25, 42, 89, 0.2);
+    }
+
+    .graphic-right-text {
+        /*если что вернуться для изменения максимальной ширины*/
+    }
+
+    .graphic-left-text {
+        /*также для ширины*/
+    }
+
+    .graphic-text-title {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: black;
+    }
+
+    .graphic-text-info {
+        font-size: 14px;
+        line-height: 140%;
+    }
+}

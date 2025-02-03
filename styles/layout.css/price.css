@@ -1,4 +1,4 @@
-@media (max-width: 1600px) and (min-width: 651px){
+@media (max-width: 1600px) and (min-width: 1271px){
     .background-down::before {
         height: 1105px;
         clip-path: polygon(0 100%, 0 18.61%, 100% 2%, 100% 100%);

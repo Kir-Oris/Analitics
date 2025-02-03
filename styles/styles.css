@@ -3,11 +3,16 @@
 @import url(mobile.css/price.css);
 
 @import url(layout.css/intro.css);
-@import url(wide.css/intro.css);
 @import url(layout.css/main.css);
-@import url(wide.css/main.css);
 @import url(layout.css/price.css);
+
+@import url(wide.css/intro.css);
+@import url(wide.css/main.css);
 @import url(wide.css/price.css);
+
+@import url(tablet.css/intro.css);
+@import url(tablet.css/main.css);
+@import url(tablet.css/price.css);
 
 
 body {
